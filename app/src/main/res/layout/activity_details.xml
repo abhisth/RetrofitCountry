@@ -1,0 +1,191 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DetailsActivity">
+
+
+    <ImageView
+        android:id="@+id/cflag1"
+        android:layout_width="104dp"
+        android:layout_height="104dp"
+        android:layout_margin="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
+
+    <TextView
+        android:id="@+id/cname"
+        android:text="Country Name"
+        android:gravity="center"
+        android:layout_width="160dp"
+        android:textSize="16dp"
+        android:padding="8dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toEndOf="@id/cflag1"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="@id/cflag1"
+        android:background="@drawable/border"
+        />
+
+    <TextView
+        android:id="@+id/capital1"
+        android:text="Capital"
+        android:textSize="16sp"
+
+        android:layout_margin="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/cflag1"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+    <TextView
+        android:id="@+id/capital2"
+        android:text="Capital"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_marginHorizontal="16dp"
+        android:layout_height="32dp"
+        android:paddingStart="8dp"
+        android:gravity="center_vertical"
+        app:layout_constraintTop_toBottomOf="@id/capital1"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/border"
+        />
+    <TextView
+        android:id="@+id/region1"
+        android:text="Region"
+        android:textSize="16sp"
+        android:layout_margin="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/capital2"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+
+    <TextView
+        android:id="@+id/region2"
+        android:text="Region"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:paddingStart="8dp"
+        android:gravity="center_vertical"
+        android:layout_marginHorizontal="16dp"
+        app:layout_constraintTop_toBottomOf="@id/region1"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/border"
+        />
+    <TextView
+        android:id="@+id/subregion"
+        android:text="Sub Region"
+        android:textSize="16sp"
+        android:layout_margin="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/region2"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+
+    <TextView
+        android:id="@+id/subregion1"
+        android:text="Sub Region"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:paddingStart="8dp"
+        android:gravity="center_vertical"
+        android:layout_marginHorizontal="16dp"
+        app:layout_constraintTop_toBottomOf="@id/subregion"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/border"
+        />
+
+    <TextView
+        android:id="@+id/population"
+        android:text="Population"
+        android:textSize="16sp"
+        android:layout_margin="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/subregion1"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+
+    <TextView
+        android:id="@+id/population1"
+        android:text="Population"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:paddingStart="8dp"
+        android:gravity="center_vertical"
+        android:layout_marginHorizontal="16dp"
+        app:layout_constraintTop_toBottomOf="@id/population"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/border"
+        />
+ <TextView
+        android:id="@+id/border"
+        android:text="Borders"
+        android:textSize="16sp"
+        android:layout_margin="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/population1"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+
+    <TextView
+        android:id="@+id/border1"
+        android:text="Borders"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:paddingStart="8dp"
+        android:gravity="center_vertical"
+        android:layout_marginHorizontal="16dp"
+        app:layout_constraintTop_toBottomOf="@id/border"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/border"
+        />
+
+<TextView
+        android:id="@+id/language"
+        android:text="Languages"
+        android:textSize="16sp"
+        android:layout_margin="16dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/border1"
+        app:layout_constraintStart_toStartOf="parent"
+        />
+
+
+    <TextView
+        android:id="@+id/language1"
+        android:text="Languages"
+        android:textSize="16sp"
+        android:layout_width="match_parent"
+        android:layout_height="32dp"
+        android:paddingStart="8dp"
+        android:gravity="center_vertical"
+        android:layout_marginHorizontal="16dp"
+        app:layout_constraintTop_toBottomOf="@id/language"
+        app:layout_constraintStart_toStartOf="parent"
+        android:background="@drawable/border"
+        />
+
+
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
